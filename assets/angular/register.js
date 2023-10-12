@@ -4,6 +4,11 @@ app.controller("RegisterController", [
   "$scope",
   "$http",
   function ($scope, $http) {
+    const name = "John"; // Your parameter value
+    const encodedName = encodeURIComponent(name); // Encode the parameter for URL
+    // Navigate to another page with the parameter in the query string
+    // window.location.href = `success.html?name=${encodedName}`;
+
     $scope.message = "";
     $scope.url = "http://localhost:3300/api/v0001/participant/addparticipant";
 

@@ -595,9 +595,15 @@
                           name="email"
                           type="email"
                           required
+                          ng-pattern="/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/"
                           name="email"
                           ng-model="Registration.email"
                         />
+                        <label
+                          style="color: red"
+                          ng-show="addRegistration.email.$error.pattern"
+                          >Invalid email format.</label
+                        >
                       </div>
                     </div>
                   </div>
