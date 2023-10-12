@@ -10160,7 +10160,7 @@ input[type="color"] {
   stroke-width: 6;
 }
 .section__title-pre-8 {
-  font-family: var(--tp-ff-space);
+  font-family: var(--tp-ff-poppins);
   font-weight: 500;
   font-size: 18px;
   color: var(--tp-theme-8);
@@ -16770,7 +16770,7 @@ input[type="color"] {
 }
 .slider__title-pre-10 {
   display: inline-block;
-  font-family: var(--tp-ff-space);
+  font-family: var(--tp-ff-poppins);
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -20332,9 +20332,9 @@ input[type="color"] {
   margin-bottom: 65px;
 }
 .about__wrapper-8 .about-wrapper-8-paragraph {
-  font-family: var(--tp-ff-space);
+  font-family: var(--tp-ff-poppins);
   font-weight: 500;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.45;
   letter-spacing: -0.04em;
   color: var(--tp-common-black);
