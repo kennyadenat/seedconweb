@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="zxx">
+<html class="no-js" lang="zxx" ng-app="Portal">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
@@ -410,7 +410,7 @@
     </div>
     <!-- search popup end -->
 
-    <main>
+    <main ng-controller="SuccessController">
       <!-- contact area start -->
       <section
         class="tp-section-area p-relative z-index-1 tp-section-spacing"
@@ -446,7 +446,7 @@
                 class="policy__wrapper policy__translate p-relative z-index-1"
               >
                 <div class="policy__item policy__item-2 mb-35">
-                  <h3 class="policy__title">Congratulations Kehinde!.</h3>
+                  <h3 class="policy__title">Congratulations {{name}}!.</h3>
                   <p>
                     Congratulations on your registration for the SeedConnect
                     Africa Conference 2023! We're thrilled to have you on board
@@ -815,6 +815,7 @@
       </div>
     </footer>
     <!-- footer area end -->
+    <script src="assets/angular/jquery-3.7.1.min.js"></script>
 
     <!-- JS here -->
     <script src="assets/js/vendor/jquery.js"></script>
@@ -834,5 +835,12 @@
     <script src="assets/js/imagesloaded-pkgd.js"></script>
     <script src="assets/js/ajax-form.js"></script>
     <script src="assets/js/main.js"></script>
+
+    <script src="assets/angular/angular.min.js"></script>
+    <script src="assets/angular/angular-animate.min.js"></script>
+    <script src="assets/angular/angular-aria.min.js"></script>
+    <script src="assets/angular/angular-messages.min.js"></script>
+    <script src="assets/angular/app.js"></script>
+    <script src="assets/angular/success.js"></script>
   </body>
 </html>
