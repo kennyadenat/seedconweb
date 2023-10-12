@@ -4,11 +4,6 @@ app.controller("RegisterController", [
   "$scope",
   "$http",
   function ($scope, $http) {
-    const name = "John"; // Your parameter value
-    const encodedName = encodeURIComponent(name); // Encode the parameter for URL
-    // Navigate to another page with the parameter in the query string
-    // window.location.href = `success.html?name=${encodedName}`;
-
     $scope.message = "";
     $scope.url = "http://localhost:3300/api/v0001/participant/addparticipant";
 
@@ -25,6 +20,7 @@ app.controller("RegisterController", [
       attendance: "",
       aware: "",
       submit: "submit",
+      year: "",
     };
 
     $scope.resetForm = function () {
@@ -40,6 +36,7 @@ app.controller("RegisterController", [
         specialization: "",
         attendance: "",
         aware: "",
+        year: "",
         submit: "submit",
       };
     };
@@ -47,15 +44,16 @@ app.controller("RegisterController", [
     $scope.sexes = ["female", "male"];
 
     $scope.addNewRegistration = function () {
-      console.log("titles", $scope.Registration);
+      const currentYear = new Date().getFullYear().toString();
+      $scope.Registration.year = currentYear;
       $scope.Registration.submit = "process";
 
       $http.post($scope.url, $scope.Registration).then(function (msg) {
         $scope.message = msg.data.participants;
-
         if ($scope.message.status === "true") {
-          $scope.resetForm();
-          $scope.Registration.sex = "";
+          const encodedName = encodeURIComponent($scope.message.name); // Encode the parameter for URL
+          // Navigate to another page with the parameter in the query string
+          window.location.href = `success.html?name=${encodedName}`;
         } else {
           console.log("User account already exists");
         }

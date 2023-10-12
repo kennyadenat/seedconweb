@@ -56194,4 +56194,10 @@ blockquote cite::before {
   }
 }
 
+@media (max-width: 575px) {
+  .contact_img {
+    width: 300px;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
