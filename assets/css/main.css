@@ -31394,6 +31394,7 @@ div.team__details-shape-4 img {
 }
 .portfolio__details-content-2 p {
   font-size: 16px;
+  font-family: var(--tp-ff-poppins);
   line-height: 1.62;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
