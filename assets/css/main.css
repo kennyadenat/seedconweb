@@ -23964,6 +23964,17 @@ input[type="color"] {
   background-color: var(--tp-grey-4);
 }
 
+.counter__blue {
+  background-color: rgb(0 104 175 / 10%);
+}
+
+.counter__blue .counter__icon-5 span {
+  color: var(--tp-common-blue-4);
+}
+.counter__blue .counter__no h4 {
+  color: var(--tp-common-blue-4);
+}
+
 /* fun fact css start*/
 .fact__item {
   padding: 40px 40px;
