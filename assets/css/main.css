@@ -6838,9 +6838,9 @@ input[type="color"] {
   color: var(--tp-theme-1);
 }
 .offcanvas__contact-mail {
-  font-family: var(--tp-ff-space);
-  font-weight: 400;
-  font-size: 16px;
+  font-family: var(--tp-ff-poppins);
+  font-weight: 500;
+  font-size: 18px;
   color: var(--tp-text-1);
 }
 .offcanvas__contact-mail a:hover {
@@ -6982,7 +6982,7 @@ input[type="color"] {
   color: var(--tp-theme-1);
 }
 .offcanvas__menu-ff-space ul li a {
-  font-family: var(--tp-ff-space);
+  font-family: var(--tp-ff-poppins);
 }
 .offcanvas__menu-ff-oswald ul li a {
   font-family: var(--tp-ff-oswald);
