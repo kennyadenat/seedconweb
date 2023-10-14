@@ -23651,7 +23651,7 @@ input[type="color"] {
   margin-bottom: 0;
 }
 .counter__title-5 {
-  font-family: var(--tp-ff-space);
+  font-family: var(--tp-ff-poppins);
   font-weight: 700;
   font-size: 20px;
   letter-spacing: -0.04em;
@@ -23920,7 +23920,7 @@ input[type="color"] {
   animation-delay: 1s;
 }
 .counter__info-5 p {
-  font-family: var(--tp-ff-space);
+  font-family: var(--tp-ff-poppins);
   font-weight: 400;
   font-size: 20px;
   letter-spacing: -0.04em;
@@ -24783,9 +24783,9 @@ input[type="color"] {
   color: var(--tp-theme-5);
 }
 .services__title-7 {
-  font-family: var(--tp-ff-inter);
-  font-weight: 600;
-  font-size: 22px;
+  font-family: var(--tp-ff-poppins);
+  font-weight: 700;
+  font-size: 18px;
   line-height: 1.3;
   color: var(--tp-common-black-11);
   margin-bottom: 10px;
@@ -30954,7 +30954,7 @@ div.team__details-shape-4 img {
 }
 .portfolio__horizontal-title {
   font-size: 47px;
-  font-weight:900;
+  font-weight: 900;
   line-height: 1;
   letter-spacing: -0.04em;
   margin-bottom: 17px;
@@ -31465,8 +31465,8 @@ div.team__details-shape-4 img {
   transform: translateY(-3px);
 }
 .portfolio__details-meta-content h5 {
-  font-weight: 500;
-  font-size: 18px;
+  font-weight: 700;
+  font-size: 16px;
   line-height: 1;
   margin-bottom: 3px;
 }
@@ -35528,6 +35528,7 @@ div.team__details-shape-4 img {
 }
 .skill__wrapper-14 p {
   font-size: 16px;
+  font-family: var(--tp-ff-poppins);
 }
 .skill__bar {
   padding-top: 6px;
