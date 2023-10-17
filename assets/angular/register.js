@@ -7,8 +7,8 @@ app.controller("RegisterController", [
   function ($scope, $http, toastr) {
     $scope.message = "";
     $scope.url = "http://localhost:3300/api/v0001/participant/addparticipant";
-    $scope.url =
-      "https://eventserver.onrender.com/api/v0001/participant/addparticipant";
+    // $scope.url =
+    //   "https://eventserver.onrender.com/api/v0001/participant/addparticipant";
 
     $scope.error = "";
 

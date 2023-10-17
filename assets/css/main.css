@@ -3220,7 +3220,7 @@ input[type="color"] {
   font-size: 14px;
   font-weight: 500;
   color: var(--tp-common-black);
-  font-family: var(--tp-ff-space);
+  font-family: var(--tp-ff-poppins);
   padding: 6px 18px;
   border: 1px solid var(--tp-border-5);
   text-align: center;
@@ -7431,6 +7431,7 @@ input[type="color"] {
   font-size: 50px;
   line-height: 1.4;
   color: var(--tp-common-white);
+  font-family: var(--tp-ff-poppins);
   width: 100%;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -9862,7 +9863,7 @@ input[type="color"] {
   color: var(--tp-common-black);
   font-weight: var(--tp-fw-bold);
   line-height: 1;
-  font-family: var(--tp-ff-roboto);
+  font-family: var(--tp-ff-poppins);
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .section__title-6 {
@@ -31389,8 +31390,8 @@ div.team__details-shape-4 img {
   }
 }
 .portfolio__details-title-sm {
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 600;
+  font-size: 17px;
   line-height: 1;
 }
 .portfolio__details-title-sm-2 {
@@ -31482,7 +31483,7 @@ div.team__details-shape-4 img {
   margin-bottom: 3px;
 }
 .portfolio__details-meta-content span {
-  font-family: var(--tp-ff-space);
+  font-family: var(--tp-ff-poppins);
   font-size: 16px;
   line-height: 1;
 }
@@ -31656,6 +31657,7 @@ div.team__details-shape-4 img {
 }
 .portfolio__details-task p {
   font-size: 16px;
+  font-family: var(--tp-ff-poppins);
   line-height: 1.62;
 }
 .portfolio__details-task-2 p {
@@ -31667,8 +31669,9 @@ div.team__details-shape-4 img {
   padding-left: 70px;
 }
 .portfolio__details-btn a {
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 17px;
+  font-family: var(--tp-ff-poppins);
+  font-weight: 600;
   color: var(--tp-theme-1);
 }
 .portfolio__details-btn a:hover {
@@ -52446,7 +52449,7 @@ p.postbox__meta-name {
   margin-bottom: 35px;
 }
 .postbox__quote {
-  margin-top: 40px;
+  margin-top: 30px;
   text-align: center;
   background-color: var(--tp-common-white);
   box-shadow: 0px 1px 3px rgba(3, 4, 28, 0.1);
@@ -52458,9 +52461,9 @@ p.postbox__meta-name {
   margin-bottom: 9px;
 }
 .postbox__quote p {
-  font-family: var(--tp-ff-space);
+  font-family: var(--tp-ff-poppins);
   font-weight: 500;
-  font-size: 22px;
+  font-size: 19px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: -0.02em;

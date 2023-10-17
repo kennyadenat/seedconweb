@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="assets/css/elegant-icon.css" />
     <link rel="stylesheet" href="assets/css/spacing.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="assets/angular/angular-toastr.css" />
+    <link rel="stylesheet" href="assets/angular/sweetalert2.min.css" />
   </head>
   <body ng-cloak>
     <!--[if lte IE 9]>
@@ -648,6 +648,7 @@
                           required
                           ng-model="Registration.country"
                         >
+                          <option value="">Select Country</option>
                           <option value="Afghanistan">Afghanistan</option>
                           <option value="Åland Islands">Åland Islands</option>
                           <option value="Albania">Albania</option>
@@ -1431,6 +1432,7 @@
     <script src="assets/js/imagesloaded-pkgd.js"></script>
     <script src="assets/js/ajax-form.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/angular/sweetalert2.all.min.js"></script>
 
     <script src="assets/angular/angular.min.js"></script>
     <script src="assets/angular/angular-animate.min.js"></script>
