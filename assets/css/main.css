@@ -20610,7 +20610,7 @@ input[type="color"] {
 .about__thumb-text {
   position: absolute;
   top: 25%;
-  left: -7%;
+  left: -10%;
   -webkit-transform: rotate(-90deg) translateY(-188px);
   -moz-transform: rotate(-90deg) translateY(-188px);
   -ms-transform: rotate(-90deg) translateY(-188px);

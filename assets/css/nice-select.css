@@ -149,6 +149,7 @@
   font-weight: 400;
   line-height: 40px;
   list-style: none;
+  font-family: poppins;
   min-height: 40px;
   outline: none;
   padding-left: 18px;
@@ -174,4 +175,19 @@
 
 .no-csspointerevents .nice-select.open .list {
   display: block;
+}
+
+.validbtn {
+  background: #4cb12f !important;
+}
+
+.invalidbtn {
+  background: #b3b3b3 !important;
+}
+
+.errtxt {
+  font-family: "Poppins";
+  color: red;
+  font-size: 15px;
+  font-weight: 600;
 }
