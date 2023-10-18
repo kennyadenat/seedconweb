@@ -36881,12 +36881,12 @@ div.team__details-shape-4 img {
   z-index: -1;
 }
 .cta__content-5 span {
-  font-family: var(--tp-ff-poppins);
-  font-weight: 500;
-  font-size: 25px;
+  font-family: var(--tp-ff-space);
+  font-weight: 700;
+  font-size: 16px;
   line-height: 20px;
-  /* letter-spacing: 0.1em; */
-  /* text-transform: uppercase; */
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
   color: var(--tp-common-white);
   display: inline-block;
   margin-bottom: 15px;
