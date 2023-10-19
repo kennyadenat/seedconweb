@@ -9859,7 +9859,7 @@ input[type="color"] {
   color: var(--tp-common-white);
 }
 .section__title-6 {
-  font-size: 46px;
+  font-size: 56px;
   color: var(--tp-common-black);
   font-weight: var(--tp-fw-bold);
   line-height: 1;
@@ -9892,7 +9892,7 @@ input[type="color"] {
   color: var(--tp-common-white);
 }
 .section__title-6-highlight {
-  color: var(--tp-theme-6);
+  color: #111428;
   position: relative;
   display: inline-block;
 }
@@ -23715,7 +23715,7 @@ input[type="color"] {
   margin-bottom: 8px;
 }
 .counter__content-10 p {
-  font-family: var(--tp-ff-space);
+  font-family: var(--tp-ff-poppins);
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
