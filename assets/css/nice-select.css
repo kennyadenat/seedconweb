@@ -191,3 +191,8 @@
   font-size: 15px;
   font-weight: 600;
 }
+
+.atcb-button {
+  background-color: #4cb12f !important;
+  color: #ffffff !important;
+}

@@ -47540,6 +47540,7 @@ p.checkout-coupon button {
 }
 .error__content p {
   font-size: 16px;
+  font-family: var(--tp-ff-poppins);
   line-height: 1.6;
   padding: 0 70px;
   margin-bottom: 27px;
@@ -56219,3 +56220,7 @@ blockquote cite::before {
 }
 
 /*# sourceMappingURL=main.css.map */
+.atcb-button {
+  background-color: #4cb12f !important;
+  color: #ffffff !important;
+}

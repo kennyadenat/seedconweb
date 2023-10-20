@@ -822,8 +822,21 @@
                 </p>
                 <div class="about__call-8 d-flex align-items-center mb-50">
                   <div class="about__call-content-8">
-                    <h4 style="color: #000">Save the Date</h4>
-                    <p style="font-weight: 900; font-size: 28px">
+                    <add-to-calendar-button 
+                            styleLight="--btn-background: #4cb12f; --btn-text: #fff; --font: 'poppins';"
+                            styleDark="--btn-background: #000;"
+                            name="2023 SeedConnect Africa Conference"
+                            options="'Apple','Google','iCal','Outlook.com','Yahoo'"
+                            location="World Wide Web"
+                            listStyle="overlay"
+                            startDate="2023-10-22"
+                            endDate="2023-10-22"
+                            startTime="10:15"
+                            endTime="23:30"
+                            label="Save the date to Calendar"  
+                            lightMode="bodyScheme"
+                            ></add-to-calendar-button>
+                    <p style="font-weight: 900; font-size: 28px; margin-top:5px">
                       28th - 29th November, 2023
                     </p>
                   </div>
@@ -1477,6 +1490,15 @@
                     </div>
                     <div class="brand__item-5">
                       <img src="assets/img/partners/rijk.png" alt="" />
+                    </div>
+                    <div class="brand__item-5">
+                      <img src="assets/img/partners/corteva.png" alt="" />
+                    </div>
+                    <div class="brand__item-5">
+                      <img src="assets/img/partners/seedco.png" alt="" />
+                    </div>
+                    <div class="brand__item-5">
+                      <img src="assets/img/partners/donald.png" alt="" />
                     </div>
                   </div>
                 </div>
@@ -2380,6 +2402,7 @@
       </section>
     </main>
 
+    
         <!-- footer area start -->
     <footer>
       <div class="footer__area" data-bg-color="footer-bg-black-4">
@@ -2680,5 +2703,7 @@
     <script src="assets/js/hover-reveal.js"></script>
     <script src="assets/js/tween-max.js"></script>
     <script src="assets/js/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async defer></script>
   </body>
 </html>
