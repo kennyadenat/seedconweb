@@ -10502,6 +10502,7 @@ input[type="color"] {
 .tp-section-wrapper-2 p {
   font-size: 16px;
   line-height: 1.62;
+  font-family: var(--tp-ff-poppins);
 }
 @media only screen and (min-width: 576px) and (max-width: 767px),
   (max-width: 575px) {
@@ -48096,7 +48097,7 @@ p.checkout-coupon button {
   margin-bottom: 11px;
 }
 .policy__title {
-  font-size: 34px;
+  font-size: 22px;
   letter-spacing: -0.04em;
   color: var(--tp-common-black-solid);
   margin-bottom: 17px;

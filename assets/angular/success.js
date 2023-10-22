@@ -8,9 +8,8 @@ app.controller("SuccessController", [
     const urlParams = new URLSearchParams(queryString);
     const name = urlParams.get("name");
 
-    $scope.name = toTitleCase(name);
-
     if (name) {
+      $scope.name = toTitleCase(name);
       // Use the parameter value as needed
       console.log("Received name:", decodeURIComponent(name));
     } else {
