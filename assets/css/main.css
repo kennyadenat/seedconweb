@@ -7454,7 +7454,7 @@ input[type="color"] {
   display: none;
 }
 .offcanvas__full-menu ul li .submenu li a {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 30px;
   line-height: 1.6;
   color: #75757a;
@@ -7688,7 +7688,8 @@ input[type="color"] {
 }
 .offcanvas__full .mean-container .mean-nav ul li .submenu li a,
 .offcanvas__full .mean-container .mean-nav ul li .mega-menu li a {
-  font-weight: 500;
+  font-weight: 600;
+  font-family: var(--tp-ff-poppins);
   font-size: 20px;
   line-height: 1.6;
   color: #75757a;
@@ -33482,7 +33483,7 @@ div.team__details-shape-4 img {
 .testimonial__wrapper .section__title-pre.section__title-pre-1-2 {
   letter-spacing: 0;
   font-weight: 600;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 20px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
