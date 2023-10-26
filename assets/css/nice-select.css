@@ -268,3 +268,7 @@
   color: var(--tp-common-black);
   margin-bottom: 25px;
 }
+
+.brr {
+  font-family: var(--tp-ff-poppins) !important;
+}
