@@ -38319,9 +38319,9 @@ div.team__details-shape-4 img {
   margin-bottom: 12px;
 }
 .pricing__title-wrapper p {
-  font-family: var(--tp-ff-inter);
-  font-weight: 500;
-  font-size: 18px;
+  font-family: var(--tp-ff-poppins);
+  font-weight: 600;
+  font-size: 16px;
   color: var(--tp-common-black);
   margin-bottom: 0;
 }
@@ -38460,8 +38460,8 @@ div.team__details-shape-4 img {
   background: var(--tp-common-white);
   box-shadow: 0px 1px 2px rgba(3, 4, 28, 0.1);
   border-radius: 14px;
-  font-family: var(--tp-ff-inter);
-  font-weight: 500;
+  font-family: var(--tp-ff-poppins);
+  font-weight: 600;
   font-size: 13px;
   text-align: center;
   color: var(--tp-common-black);

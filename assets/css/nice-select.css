@@ -272,3 +272,30 @@
 .brr {
   font-family: var(--tp-ff-poppins) !important;
 }
+
+.cf {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.ch {
+  font-family: var(--tp-ff-poppins) !important;
+  font-weight: 500 !important;
+  font-size: 16px;
+  letter-spacing: -0.04em;
+  margin-bottom: 2px;
+  color: #a9a9ad !important;
+}
+
+.sweet-alert h2 {
+  font-size: 22px !important;
+  margin: 10px 0 !important;
+  font-family: var(--tp-ff-poppins) !important;
+}
+
+.sweet-alert p {
+  color: #797979;
+  font-size: 16px !important;
+  font-family: var(--tp-ff-poppins) !important;
+}

@@ -86,7 +86,7 @@
     <link rel="stylesheet" href="assets/css/elegant-icon.css" />
     <link rel="stylesheet" href="assets/css/spacing.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="assets/angular/sweetalert2.min.css" />
+    <link rel="stylesheet" href="assets/angular/sweetalert.css" />
   </head>
   <body ng-cloak>
     <!-- Google Tag Manager (noscript) -->
@@ -221,16 +221,16 @@
                         <li>
                           <a href="editions.html">Editions</a>
                         </li>
-                         <li class="has-dropdown">
+                        <li>
+                          <a href="register.html">Register</a>
+                        </li>
+                         <!-- <li class="has-dropdown">
                         <a href="#">Register</a>
                           <ul class="submenu">
                             <li><a href="exhibitor.html">Exhibitor</a></li>
-                              <li><a href="register.html">Participant</a></li>
-                              
-                              
-                              
+                              <li><a href="register.html">Participant</a></li>                                                                                 
                             </ul>
-                          </li>
+                          </li> -->
                       </ul>
                     </nav>
                     <!-- for wp -->
@@ -366,17 +366,14 @@
                           </li>
                   <li><a href="#">Schedule</a></li>
                   <li><a href="editions.html">Editions</a></li>
-                   <li class="has-dropdown">
+                  <li><a href="register.html">Register</a></li>
+                   <!-- <li class="has-dropdown">
                         <a href="#">Register</a>
                           <ul class="submenu">
                             <li><a href="exhibitor.html">Exhibitor</a></li>
-                              <li><a href="register.html">Participant</a></li>
-                              
-                              
-                              
+                              <li><a href="register.html">Participant</a></li>                                                          
                             </ul>
-                          </li>
-                 
+                          </li>                  -->
                 </ul>
               </nav>
             </div>
@@ -519,6 +516,7 @@
     <!-- search popup end -->
 
     <main>
+        
       <!-- contact area start -->
       <section
         class="tp-section-area p-relative z-index-1 tp-section-spacing"
@@ -562,9 +560,11 @@
       <!-- contact form area start -->
       <section class="contact__form-area pb-150">
         <div ng-controller="RegisterController" class="container">
+          
           <div class="row justify-content-center">
             <div class="col-xl-8 col-lg-8 col-md-10">
               <div class="contact__form-2 contact__style-2 contact__translate">
+                <!-- <toaster-container toaster-options="{'close-button':false, 'time-out':{ 'toast-warning': 2000, 'toast-error': 0 } }"></toaster-container> -->
                 <!-- <h3 class="contact__form-2-title">Send a message</h3> -->
                 <form
                   name="addRegistration"
@@ -1168,16 +1168,23 @@
                   <div class="row">
                     <div class="col-md-5">
                       <div class="contact__btn-2">
-                        <button
+                        <button style="cursor: pointer;" ng-show="Registration.submit === 'submit'"
                           type="submit"
                           ng-disabled="addRegistration.$invalid"
                           ng-click="addNewRegistration()"
                           ng-class="{ 'tp-btn': true, 'validbtn': !addRegistration.$invalid, 'invalidbtn': addRegistration.$invalid }"
                         >
-                          <span ng-show="Registration.submit === 'submit'"
+                          <span
                             >Register</span
                           >
-                          <span ng-show="Registration.submit === 'process'"
+                        </button>
+
+                        <button ng-show="Registration.submit === 'process'"
+                          type="button"
+                          ng-disabled="addRegistration.$invalid"                          
+                          ng-class="{ 'tp-btn': true, 'validbtn': true }"
+                        >
+                          <span 
                             >Processing . . .</span
                           >
                         </button>
@@ -1537,14 +1544,14 @@
     <script src="assets/js/isotope-pkgd.js"></script>
     <script src="assets/js/imagesloaded-pkgd.js"></script>
     <script src="assets/js/ajax-form.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/angular/sweetalert2.all.min.js"></script>
+    <script src="assets/js/main.js"></script>    
 
     <script src="assets/angular/angular.min.js"></script>
     <script src="assets/angular/angular-animate.min.js"></script>
     <script src="assets/angular/angular-aria.min.js"></script>
-    <script src="assets/angular/angular-messages.min.js"></script>
-    <script src="assets/angular/angular-toastr.tpls.min.js"></script>
+    <script src="assets/angular/angular-messages.min.js"></script>    
+    <script src="assets/angular/SweetAlert.js"></script>
+    <script src="assets/angular/sweetalert.min.js"></script>
     <script src="assets/angular/app.js"></script>
     <script src="assets/angular/register.js"></script>
   </body>
