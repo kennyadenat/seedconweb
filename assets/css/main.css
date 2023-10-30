@@ -5862,9 +5862,9 @@ input[type="color"] {
   animation-delay: 1s;
 }
 .preloader__loading {
-  font-family: var(--tp-ff-space);
-  font-weight: 700;
-  font-size: 16px;
+  font-family: var(--tp-ff-poppins);
+  font-weight: 900;
+  font-size: 18px;
   line-height: 1;
   letter-spacing: 0.9em;
   text-transform: uppercase;
@@ -27370,7 +27370,7 @@ input[type="color"] {
   }
 }
 .team__details-content p {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.62;
   text-align: justify;
   margin-bottom: 30px;
@@ -37935,7 +37935,7 @@ div.team__details-shape-4 img {
   list-style: none;
   padding-left: 30px;
   font-size: 15px;
-  font-family: var(--tp-ff-inter);
+  font-family: var(--tp-ff-poppins);
   color: var(--tp-common-white-op-7);
   position: relative;
   margin-bottom: 10px;
@@ -38254,7 +38254,7 @@ div.team__details-shape-4 img {
   font-size: 20px;
   font-weight: 700;
   color: var(--tp-common-white);
-  font-family: var(--tp-ff-space);
+  font-family: var(--tp-ff-poppins);
   display: inline-block;
   position: relative;
   padding-left: 9px;
@@ -38288,6 +38288,24 @@ div.team__details-shape-4 img {
 .pricing__category span.premium::after {
   background-color: var(--tp-common-purple-2);
 }
+
+.pricing__category span.platinum::after {
+  background-color: #E5E4E2;
+}
+
+.pricing__category span.gold::after {
+  background-color: #FFD700;
+}
+
+.pricing__category span.silver::after {
+  background-color:  #C0C0C0;
+}
+
+.pricing__category span.bronze::after {
+  background-color: #CD7F32;
+}
+
+
 .pricing__title {
   font-size: 46px;
   color: var(--tp-common-white);
@@ -38296,6 +38314,7 @@ div.team__details-shape-4 img {
 }
 .pricing__title .pricing-currency {
   font-size: 20px;
+  font-family: var(--tp-ff-poppins);
 }
 .pricing__title-5 {
   font-family: var(--tp-ff-space);
