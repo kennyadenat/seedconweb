@@ -11,7 +11,6 @@ app.controller("SuccessController", [
     if (name) {
       $scope.name = toTitleCase(name);
       // Use the parameter value as needed
-      console.log("Received name:", decodeURIComponent(name));
     } else {
       window.location.href = `index.html`;
     }

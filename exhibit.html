@@ -515,7 +515,7 @@
                        <div class="tp-section-wrapper-2 mb-65 text-center">
                 <span style="color: #fff;"  class="tp-section-subtitle-2">SeedConnect Africa 2023</span>
                 <h3 style="color: #fff;" class="tp-section-title-2 font-70">
-                  Our Offers built to suits your taste.
+                  Our Offers built to suit your taste.
                 </h3>
               </div>
                   </div>
@@ -554,7 +554,7 @@
                            </div>
                            <div class="col-xxl-2 col-xl-2 col-lg-2">
                               <div class="pricing__btn text-center text-lg-end">
-                                 <a ng-click="chooseOption()" class="tp-btn-border-3">Choose</a>
+                                 <a ng-click="chooseOption('platinum')" style="cursor: pointer;" class="tp-btn-border-3">Choose</a>
                               </div>
                            </div>
                         </div>
@@ -592,7 +592,7 @@
                            </div>
                            <div class="col-xxl-2 col-xl-2 col-lg-2">
                               <div class="pricing__btn text-center text-lg-end">
-                                 <a ng-click="chooseOption()" class="tp-btn-border-3">Choose</a>
+                                 <a ng-click="chooseOption('gold')" style="cursor: pointer;" class="tp-btn-border-3">Choose</a>
                               </div>
                            </div>
                         </div>
@@ -630,7 +630,7 @@
                            </div>
                            <div class="col-xxl-2 col-xl-2 col-lg-2">
                               <div class="pricing__btn text-center text-lg-end">
-                                 <a ng-click="chooseOption()" class="tp-btn-border-3">Choose</a>
+                                 <a ng-click="chooseOption('silver')" style="cursor: pointer;" class="tp-btn-border-3">Choose</a>
                               </div>
                            </div>
                         </div>
@@ -668,7 +668,7 @@
                            </div>
                            <div class="col-xxl-2 col-xl-2 col-lg-2">
                               <div class="pricing__btn text-center text-lg-end">
-                                 <a ng-click="chooseOption()" class="tp-btn-border-3">Choose</a>
+                                 <a ng-click="chooseOption('bronze')" style="cursor: pointer;" class="tp-btn-border-3">Choose</a>
                               </div>
                            </div>
                         </div>
@@ -703,7 +703,7 @@
                            </div>
                            <div class="col-xxl-2 col-xl-2 col-lg-2">
                               <div class="pricing__btn text-center text-lg-end">
-                                 <a ng-click="chooseOption()" sty class="tp-btn-border-3">Choose</a>
+                                 <a ng-click="chooseOption('exhibition only')" style="cursor: pointer;" class="tp-btn-border-3">Choose</a>
                               </div>
                            </div>
                         </div>
@@ -723,7 +723,7 @@
                        <div class="tp-section-wrapper-2 mb-65 text-center">
                 <span  class="tp-section-subtitle-2">SeedConnect Africa 2023</span>
                 <h3 class="tp-section-title-2 font-70">
-                  Our Offers built to suits your taste.
+                  Our Offers built to suit your taste.
                 </h3>
               </div>
                   </div>
@@ -732,7 +732,197 @@
           <div class="row justify-content-center">
             <div class="col-xl-8 col-lg-8 col-md-10">
               <div class="contact__form-2 contact__style-2">            
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc2rnv9cdHiB7ImtoXwcm_JXV0YP37T_x9MbkGJwFu7Ay-qRg/viewform?embedded=true" width="600" height="1600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc2rnv9cdHiB7ImtoXwcm_JXV0YP37T_x9MbkGJwFu7Ay-qRg/viewform?embedded=true" width="600" height="1600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+
+                <form
+                  name="addRegistration"
+                  novalidate
+                  ng-submit="submitForm()"
+                >
+                <div class="row">
+                    <div class="col-md-12">
+                      <div class="country-select">
+                        <label>Category <span class="required">*</span></label>
+                       <input
+                          name="category"
+                          type="text"
+                          readonly
+                          required
+                          name="category"
+                          ng-model="Registration.category"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="country-select">
+                        <label>Industry <span class="required">*</span></label>
+                        <select
+                          id="industry"
+                          style="display: none"
+                          required
+                          name="industry"
+                          ng-model="Registration.industry"
+                        >
+                          <option value="">Select Industry</option>
+                          <option value="Academia">Academia</option>
+                           <option value="Agro Dealer">Agro Dealer</option>
+                          <option value="Civil Society Organization (CSO)">
+                            Civil Society Organization (CSO)
+                          </option>
+                          <option value="Diplomatic Corp">
+                            Diplomatic Corp
+                          </option>
+                          <option value="Farmer Organization">
+                            Farmer Organization
+                          </option>
+                          <option value="Financial Institutions">
+                            Financial Institutions
+                          </option>
+                          <option value="Government Agencies">
+                            Government Agencies
+                          </option>
+                          <option value="International Organization">
+                            International Organization
+                          </option>
+                          <option value="Investor">Investor</option>
+                          <option value="Non Governmental Organization (NGO)">
+                            Non Governmental Organization (NGO)
+                          </option>                          
+                          <option value="Research Institutions">
+                            Research Institutions
+                          </option>
+                          <option value="Seed Company">Seed Company</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="contact__input-2">
+                        <label class="labeltitle"
+                          >Name of Organization
+                          <span class="required">*</span></label
+                        >
+                        <input
+                          name="phone"
+                          type="text"
+                          required
+                          name="organization"
+                          ng-model="Registration.organization"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="contact__input-2">
+                        <label class="labeltitle"
+                          >Contact Name <span class="required">*</span></label
+                        >
+                        <input
+                          name="phone"
+                          type="text"
+                          required
+                          name="contact"
+                          ng-model="Registration.contact"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="contact__input-2">
+                        <label class="labeltitle"
+                          >Organization Email <span class="required">*</span></label
+                        >
+                        <input
+                          name="email"
+                          type="email"
+                          required
+                          ng-pattern="/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/"
+                          name="email"
+                          ng-model="Registration.email"
+                        />
+                        <label
+                          style="color: red"
+                          ng-show="addRegistration.email.$error.pattern"
+                          >Invalid email format.</label
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="contact__input-2">
+                        <label class="labeltitle"
+                          >Organization Phone <span class="required">*</span></label
+                        >
+                        <input
+                          name="phone"
+                          type="tel"
+                          required
+                          name="phone"
+                          ng-model="Registration.phone"
+                        />
+                      </div>
+                    </div>
+                  </div>                 
+
+                     <div class="row">
+                    <div class="col-md-12">
+                      <div class="contact__input-2">
+                        <label class="labeltitle"
+                          >Address <span class="required">*</span></label
+                        >
+                        <textarea
+                          name="address"                          
+                          required
+                          name="address"
+                          ng-model="Registration.address"
+                        ></textarea>
+                      </div>
+                    </div>
+                  </div>   
+
+                  <div class="row">
+                    <p ng-if="error != ''" class="ajaxresponse errtxt">
+                      {{error}}
+                    </p>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-5">
+                      <div class="contact__btn-2">
+                        <button style="cursor: pointer;" ng-show="Registration.submit === 'submit'"
+                          type="submit"
+                          ng-disabled="addRegistration.$invalid"
+                          ng-click="addNewRegistration()"
+                          ng-class="{ 'tp-btn': true, 'validbtn': !addRegistration.$invalid, 'invalidbtn': addRegistration.$invalid }"
+                        >
+                          <span
+                            >Register</span
+                          >
+                        </button>
+
+                        <button ng-show="Registration.submit === 'process'"
+                          type="button"
+                          ng-disabled="addRegistration.$invalid"                          
+                          ng-class="{ 'tp-btn': true, 'validbtn': true }"
+                        >
+                          <span 
+                            >Processing . . .</span
+                          >
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+
               </div>
             </div>
           </div>
@@ -740,7 +930,7 @@
       </section>
       <!-- contact form area end -->
 
-        <section class="cta__area cta__style-2 p-relative z-index-1 pt-100">
+       <section class="cta__area cta__style-2 p-relative z-index-1 pt-100 pb-100">
             <div class="container">
                <div class="cta__inner-5" data-bg-color="blue-dark">
                   <div class="cta__shape-bg include-bg" data-background="assets/img/cta/5/cta-bg.png" style="background-image: url(&quot;assets/img/cta/5/cta-bg.png&quot;);"></div>
@@ -766,7 +956,8 @@
                               </div>
                               <div class="contact__list-content">
                                  <h5 class="ch">Call us at:</h5>
-                                 <p><a class="cf" href="tel:602-762-472-96">+(602) 762 472 96</a></p>
+                                 <p class="mb-10"><a class="cf mb-5" href="tel:+2347036046157">+(234) 703 604 6157</a></p>
+                                <p><a class="cf" href="tel:+2347040362569">+(234) 704 036 2569</a></p>
                               </div>
                            </div>
                            <div class="contact__list-item d-flex align-items-center">
@@ -791,7 +982,6 @@
                </div>
             </div>
          </section>
-
         <!-- brand area start -->
       <section class="brand__area pt-110 pb-120">
         <div class="container-fluid g-0">
@@ -829,9 +1019,9 @@
               <div class="brand__slider-5">
                 <div class="brand__slider-5">
                   <div class="brand__slider-active-5">
-                    <div class="brand__item-5">
+                    <!-- <div class="brand__item-5">
                       <img src="assets/img/partners/cip.png" alt="" />
-                    </div>
+                    </div> -->
                     <div class="brand__item-5">
                       <img src="assets/img/partners/ecobasic.png" alt="" />
                     </div>
@@ -924,9 +1114,9 @@
                     <div class="brand__item-5">
                       <img src="assets/img/partners/mosanto.png" alt="" />
                     </div>
-                    <div class="brand__item-5">
+                    <!-- <div class="brand__item-5">
                       <img src="assets/img/partners/africaharvest.png" alt="" />
-                    </div>
+                    </div> -->
                      <div class="brand__item-5">
                       <img src="assets/img/partners/afsta.png" alt="" />
                     </div>
@@ -936,9 +1126,9 @@
                      <div class="brand__item-5">
                       <img src="assets/img/partners/maslaha.png" alt="" />
                     </div>
-                     <div class="brand__item-5">
+                     <!-- <div class="brand__item-5">
                       <img src="assets/img/partners/resourced.png" alt="" />
-                    </div>
+                    </div> -->
                      <div class="brand__item-5">
                       <img src="assets/img/partners/goseed.png" alt="" />
                     </div>
