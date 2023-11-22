@@ -323,3 +323,7 @@
     height: 2000px;
   }
 }
+
+.cur {
+  cursor: pointer !important;
+}

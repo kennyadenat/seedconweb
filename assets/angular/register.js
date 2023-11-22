@@ -5,7 +5,12 @@ app.controller("RegisterController", [
   "$http",
   "$timeout",
   "SweetAlert",
-  function ($scope, $http, $timeout, SweetAlert) {
+  "DataService",
+  function ($scope, $http, $timeout, SweetAlert, DataService) {
+    var jsonData = DataService.getJsonData();
+
+    console.log(jsonData);
+
     $scope.message = "";
     //  $scope.url = "http://localhost:3300/api/v0001/participant/addparticipant";
     $scope.url =
