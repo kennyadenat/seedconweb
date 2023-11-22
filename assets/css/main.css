@@ -20303,6 +20303,7 @@ input[type="color"] {
   line-height: 28px;
   color: var(--tp-text-1);
   margin-bottom: 50px;
+  font-weight: 500;
 }
 [dir="rtl"] .about__wrapper-8 {
   padding-left: 0;
@@ -36640,7 +36641,7 @@ div.team__details-shape-4 img {
   background: #ffffff;
   border: 1px solid var(--tp-common-black);
   font-size: 15px;
-  font-family: var(--tp-ff-roboto);
+  font-family: var(--tp-ff-poppins);
   padding-right: 170px;
 }
 [dir="rtl"] .cta__input-13 input {
