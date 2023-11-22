@@ -36371,7 +36371,7 @@ div.team__details-shape-4 img {
   }
 }
 .cta__title-13 {
-  font-family: var(--tp-ff-roboto);
+  font-family: var(--tp-ff-poppins);
   font-size: 34px;
   line-height: 1.18;
   margin-bottom: 0;
@@ -54146,10 +54146,10 @@ blockquote cite::before {
   }
 }
 .footer__copyright-2 p {
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 500;
   color: #7e7e7e;
-  font-family: var(--tp-ff-inter);
+  font-family: var(--tp-ff-poppins);
   margin-bottom: 0;
 }
 .footer__copyright-2 p a {
@@ -55104,10 +55104,10 @@ blockquote cite::before {
   margin-left: 0;
 }
 #footer-list-inline li a {
-  font-size: 14px;
-  font-weight: 500;
-  color: var(--tp-text-6);
-  font-family: var(--tp-ff-inter);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--tp-text-1);
+  font-family: var(--tp-ff-poppins);
   display: inline-block;
   padding-left: 0;
   text-transform: uppercase;
@@ -55139,10 +55139,10 @@ blockquote cite::before {
   margin-left: 0;
 }
 #footer-list-inline-2 li a {
-  font-size: 14px;
-  font-weight: 500;
-  color: var(--tp-text-6);
-  font-family: var(--tp-ff-inter);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--tp-text-1);
+  font-family: var(--tp-ff-poppins);
   display: inline-block;
   padding-left: 0;
   text-transform: uppercase;
