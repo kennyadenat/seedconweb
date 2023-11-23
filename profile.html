@@ -509,7 +509,7 @@
     </div>
     <!-- search popup end -->
 
-    <main>
+    <main ng-controller="PanelistController">
       <!-- team details area start -->
       <section class="team__details-area pt-100 p-relative z-index-1">
         <div class="team__details-shape">
@@ -544,7 +544,7 @@
                   data-wow-duration="1s"
                 >
                   <img
-                    src="assets/img/team/details/team-details-1.jpg"
+                    src="{{profile.image}}"
                     alt=""
                   />
                 </div>
@@ -556,7 +556,7 @@
                   data-wow-duration="1s"
                 >
                   <span class="team__details-subtitle">Founder-CO</span>
-                  <h3 class="team__details-title">Moira Baxter</h3>
+                  <h3 class="team__details-title">{{profile.title}} {{profile.firstname}} {{profile.lastname}}</h3>
                   <div class="team__details-contact mb-10">
                     <div
                       class="team__details-contact-item d-flex align-items-center"
@@ -568,23 +568,21 @@
                         </span>
                       </div>
                       <div class="team__details-contact-content">
-                        <p>
-                          <a href="mailto:hello@website.com"
-                            >hello@website.com</a
+                        <p style="text-align: left !important;">
+                          <a
+                            >{{profile.position}}</a
                           >
                         </p>
                       </div>
                     </div>
                   </div>
-                  <p>
+                  <!-- <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Proin vulputate pellentesque commodo. Lorem ipsum dolor sit
                     amet, consectetur adipiscing elit.
-                  </p>
+                  </p> -->
 
                   <div class="team__details-social">
-                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
                     <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                   </div>
                 </div>
@@ -606,33 +604,9 @@
                   data-wow-delay=".3s"
                   data-wow-duration="1s"
                 >
-                  <h3 class="team__details-about-title">About moira baxter</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                    lobortis arcu enim urna adipiscing <br />
-                    praesent velit viverra sit semper lorem eu cursus vel
-                    hendrerit elementum morbi curabitur etiam <br />
-                    nibh justo, lorem aliquet donec sed sit mi dignissim at ante
-                    massa mattis.
-                  </p>
-
-                  <div class="team__details-about-list pt-10 mb-35">
-                    <ol>
-                      <li>Neque sodales ut etiam sit amet nisl purus.</li>
-                      <li>Adipiscing elit aliquam purus viverra suspendisse</li>
-                      <li>Mauris commodo quis imperdiet tincidunt</li>
-                      <li>Adipiscing elit ut aliquam purus</li>
-                    </ol>
-                  </div>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Maecenas varius tortor nibh, sit amet tempor nibh finibus
-                    et. Aenean eu enim justo. Vestibulum aliquam hendrerit
-                    molestie. Mauris malesuada nisi sit amet augue accumsan
-                    tincidunt. Maecenas tincidunt, velit ac porttitor pulvinar,
-                    tortor eros facilisis libero, vitae commodo nunc quam et
-                    ligula.
-                  </p>
+                  <h3 class="team__details-about-title">About {{profile.firstname}} {{profile.lastname}}</h3>
+                  <div ng-bind-html="trustAsHtml(profile.bio)">
+                  </div>                  
                 </div>
               </div>
             </div>
@@ -766,5 +740,14 @@
     <script src="assets/js/imagesloaded-pkgd.js"></script>
     <script src="assets/js/ajax-form.js"></script>
     <script src="assets/js/main.js"></script>
+
+    <script src="assets/angular/angular.min.js"></script>
+    <script src="assets/angular/angular-animate.min.js"></script>
+    <script src="assets/angular/angular-aria.min.js"></script>
+    <script src="assets/angular/angular-messages.min.js"></script>
+    <script src="assets/angular/SweetAlert.js"></script>
+    <script src="assets/angular/sweetalert.min.js"></script>
+    <script src="assets/angular/app.js"></script>
+    <script src="assets/angular/panelist.js"></script>    
   </body>
 </html>
