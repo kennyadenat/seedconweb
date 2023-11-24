@@ -9,9 +9,9 @@ app.controller("SpeakerController", [
     $scope.speakerList = [
       {
         id: "1",
-        title: "Dr.",
-        firstname: "Mohammaed",
-        lastname: "Kyari",
+        title: "Sen.",
+        firstname: "Abubakar",
+        lastname: "Kyari, CON",
         position:
           "Hon Minister, Federal Ministry of Agriculture & Food Security",
         bio: "national agricultural seeds council",
