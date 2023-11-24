@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="zxx" ng-app="Portal">
-  <head>
+  <head ng-controller="PanelistController">
       <!-- Google tag (gtag.js) -->
     <script
       async
@@ -31,11 +31,11 @@
     </script>
     <!-- End Google Tag Manager -->
     <meta charset="utf-8" />
-    <title>SeedConnect Africa - Profile</title>
+    <title>SeedConnect Africa Panelists - {{profile.title}} {{profile.firstname}} {{profile.lastname}}</title>
     <meta charset="utf-8" />
     <link
       rel="image_src"
-      href="https://res.cloudinary.com/dy0ccfsbp/image/upload/v1700739090/seedcon2023/Screenshot_81_w6sfzw.png"
+      href="{{profile.image}}"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
@@ -48,22 +48,22 @@
     />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="SeedConnect Africa Panelists" />
-    <meta property="og:url" content="https://seedcouncil.gov.ng/" />
-    <meta property="og:site_name" content="SeedConnect Africa Panelists" />
-    <link rel="canonical" href="https://seedcouncil.gov.ng/" />
+    <meta property="og:title" content="SeedConnect Africa Panelists - {{profile.title}} {{profile.firstname}} {{profile.lastname}}" />
+    <meta property="og:url" content="https://seedconnect.africa/" />
+    <meta property="og:site_name" content="SeedConnect Africa Panelists - {{profile.title}} {{profile.firstname}} {{profile.lastname}}" />
+    <link rel="canonical" href="https://seedconnect.africa/" />
     <link rel="shortcut icon" href="assets/img/logo/favicon.png" />
     <meta
       property="og:image"
-      content="https://res.cloudinary.com/dy0ccfsbp/image/upload/v1700739090/seedcon2023/Screenshot_81_w6sfzw.png"
+      content="{{profile.image}}"
     />
     <meta
       property="og:image:url"
-      content="https://res.cloudinary.com/dy0ccfsbp/image/upload/v1700739090/seedcon2023/Screenshot_81_w6sfzw.png"
+      content="{{profile.image}}"
     />
     <meta
       property="og:image:secure_url"
-      content="https://res.cloudinary.com/dy0ccfsbp/image/upload/v1700739090/seedcon2023/Screenshot_81_w6sfzw.png"
+      content="{{profile.image}}"
     />
     <!-- Place favicon.ico in the root directory -->
     <link

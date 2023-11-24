@@ -97,6 +97,75 @@ app.controller("PanelistController", [
         `,
           image: "assets/img/panelist/ibitoye.jpg",
         },
+        {
+          id: "7",
+          title: "Mr",
+          firstname: "Michael",
+          lastname: "Keller",
+          position: "Secretary General",
+          org: "International Seed Federation",
+          bio: `
+        <p>Michael Keller was appointed Secretary General of the International Seed Federation in June 2014</P>
+        <p>Michael, a German national, lived and worked in Paris for 18 years before relocating to Switzerland to join the International Seed Federation in Nyon</p>
+        <p>Having graduated from the University of Manheim where he completed a Master’s degree in European Law, Michael pursued post-graduate studies in Political Science</p>
+        <p>In 1999 Michael joined the French Senate in Paris as a Parliamentary Advisor and moved to the Mayor’s Association of France where, as Head of European and International Affairs, he represented his constituents’ interests at European level</p>
+        <p>Between 2008 and 2014 Michael held the post of Director of Regulatory and Public Affairs at DuPont Pioneer in France. During the same period Michael was a member of the Board of Directors at the Union Française des Semenciers (UFS) and Chairman of the UFS Regulation and Innovation Commission</p>
+        `,
+          image: "assets/img/panelist/micheal.jpg",
+        },
+        {
+          id: "8",
+          title: "Dr",
+          firstname: "Kouamé",
+          lastname: "Miézan",
+          position: "Executive Director",
+          org: "Africa Seeds",
+          bio: `
+        <p>On the 12 December 2013, Dr. Kouamé Miézan was appointed as the Executive Director, with the mission to strengthen the activities of the Network. Dr. Miézan, a plant breeder by training, began his career at the Institute of Research for Development (IRD), then at AfricaRice (formerly WARDA) as a senior rice breeder. He served thereafter several management and coordination positions in regional and international organizations (AfricaRice, FAO).</P>
+        <p>Holding a PhD in Plant Breeding and Genetics from Kansas State University (USA), Dr. Miézan has a proven expertise and experience in breeding programs and in the seed sector, as well as in the design and management of programs and projects for research and development. He also has experience in the development of inter-institutional relations. Dr. Miézan has been member of many research networks on rice.</p>       
+        `,
+          image: "assets/img/panelist/kouame.jpg",
+        },
+        {
+          id: "9",
+          title: "Dr",
+          firstname: "Audu",
+          lastname: "Grema",
+          position: "Senior Program Officer, Agriculture",
+          org: "Bill & Melinda Gates Foundation (BMGF)",
+          bio: `
+        <p>Audu Grema is senior manager for agriculture for the Gates Foundation. Based in Nigeria, he previously worked in the United Kingdom's Department for International Development, originally as agricultural advisor and transitioning to aid management. He has B.S. and M.S. degrees from universities in Nigeria, as well as a Ph.D. from Cranfield University.</P>       
+        `,
+          image: "assets/img/panelist/grema.jpg",
+        },
+        {
+          id: "10",
+          title: "Mr",
+          firstname: "Mark",
+          lastname: "Nelson",
+          position: "Managing Director",
+          org: "Resourced Global",
+          bio: `
+        <p>Mark Nelson is a seasoned Managing Director with over 8 years and 2 months of experience at CGD, a non-governmental entity based in Mahomet, Illinois, dedicated to supporting grant-making donors in implementing complex agricultural development initiatives. Mark played a crucial role in founding CGD, leveraging commercial expertise to design and implement multi-stakeholder programs that significantly impact the livelihoods of smallholder farmers and value chain entrepreneurs. His leadership style involves managing diverse teams, fostering partnerships, and ensuring timely development outcomes to meet the growing global demand for food, feed, fiber, and renewable energy.</p>
+        <p>One of Mark's notable achievements is his current leadership in a two-year $USD 4 million program funded by the Bill and Melinda Gates Foundation. This initiative aims to enhance agricultural productivity for smallholder farmers in Burkina Faso, Mali, and Nigeria by addressing constraints and improving understanding of key factors in crop investment decisions, focusing on sorghum and pearl millet cultivation. Additionally, Mark directs CGD's involvement in a four-year $USD 11.6 million project, also funded by the Gates Foundation, focused on sustainably improving farmers' access to high-quality and affordable cassava planting materials through the development and promotion of commercial models for seed provision.</P>
+        <p>Mark's approach is characterized by a results-oriented mindset, integrating commercial expertise with a deep understanding of development challenges in agricultural systems. His commitment to fostering productive public-private partnerships and his strategic vision position him as a respected leader in the agricultural development sector, contributing to positive change and long-term opportunities in the industry.</p>
+        `,
+          image: "assets/img/panelist/mark.jpg",
+        },
+        {
+          id: "11",
+          title: "Dr",
+          firstname: "Marja",
+          lastname: "Thijssen",
+          position: "Senior advisor in agrobiodiversity and seed systems",
+          org: "Wageningen University & Research",
+          bio: `
+        <p>Dr. Marja Thijssen is senior advisor genetic resources and seed systems at the Centre for Development Innovation (CDI) of Wageningen University and Research centre in the Netherlands. At CDI she coordinates a multi-disciplinary team of professionals working on Integrated Seed Sector Development (ISSD)</p>
+        <p>Marja coordinates the programme in Ethiopia. In addition she coordinates the continental ISSD Africa initiative. This initiative aims to work on complex challenges of strategic importance to the seed sector that are dicult to tackle at national level. The initiative aims to establish an African-embedded structure and network of experts, seed programmes and associated organizations</P>       
+        <p> Marja holds an MSc in Plant Breeding and a PhD in Plant Cell Biology, both from Wageningen University. She has more than 15 years of experience working in development projects and international trainings on agrobiodiversity management, crop improvement and seed sector development in Africa, Latin America and South Asia.</p>
+        `,
+          image: "assets/img/panelist/marja.jpg",
+        },
       ];
 
       var filteredItems = $scope.panelistList.filter(function (item) {
