@@ -85,6 +85,21 @@ app.controller("PanelistController", [
         },
         {
           id: "6",
+          title: "Ms",
+          firstname: "Rachel",
+          lastname: "Opeyemi Alao",
+          position: "Animal Scientist",
+          org: "National Animal Production Research Institute NAPRI",
+          bio: `<p>Meet Rachel Opeyemi Alao, an accomplished Animal Scientist currently serving at the National Animal Production Research Institute, Ahmadu Bello University, Shika, Zaria. As the Project Lead for the Swine Unit within the Swine and Rabbit Research Programme, she has established herself as a key contributor to the institute's research endeavors.</p>
+        <p>Hailing from Lagos state, Rachel earned her B. Tech degree in Agricultural Technology from the Federal University of Technology, Minna, Niger State. Currently, she is on the verge of completing her MSc. in Animal Breeding and Genetics at Ahmadu Bello University, Zaria, Kaduna State, showcasing her commitment to continuous learning and specialization in her field.</p>
+        <p>A Registered Animal Scientist (RAS), Rachel is actively engaged in various societies and associations related to Animal Production, Sciences, and Genetics. Her memberships highlight her dedication to staying connected with the broader scientific community and staying informed about the latest developments in her areas of expertise.</p>
+        <p>Rachel's primary area of interest lies in the Genetic and Reproductive improvements of livestock species. Her work involves conducting quality scientific research, imparting knowledge through teaching, contributing to extension services for development, and actively participating in impactful community service initiatives.</p>
+        <p>As an emerging leader in the field, Rachel Opeyemi Alao exemplifies a passion for advancing the science of Animal Breeding and Genetics, demonstrating a commitment to both academic and practical aspects of her profession.</p>
+        `,
+          image: "assets/img/panelist/rachel.png",
+        },
+        {
+          id: "7",
           title: "Dr",
           firstname: "Ibitoye",
           lastname: "Oyewale",
@@ -96,22 +111,6 @@ app.controller("PanelistController", [
         <p>Aside from his professional achievements, Dr. Ibitoye is a recipient of numerous honors and distinctions, reflecting his contributions to financial management, leadership, and positive change. As a mentor, he has dedicated decades to inspiring others, participating in various seminars, workshops, and conferences both locally and internationally. His interests extend beyond the professional realm, encompassing a love for reading, sports, and counseling. Happily married and blessed with children, Dr. Ibitoye Oyewale embodies a holistic approach to life, combining professional success with personal fulfillment.</p>
         `,
           image: "assets/img/panelist/ibitoye.jpg",
-        },
-        {
-          id: "7",
-          title: "Mr",
-          firstname: "Michael",
-          lastname: "Keller",
-          position: "Secretary General",
-          org: "International Seed Federation",
-          bio: `
-        <p>Michael Keller was appointed Secretary General of the International Seed Federation in June 2014</P>
-        <p>Michael, a German national, lived and worked in Paris for 18 years before relocating to Switzerland to join the International Seed Federation in Nyon</p>
-        <p>Having graduated from the University of Manheim where he completed a Master’s degree in European Law, Michael pursued post-graduate studies in Political Science</p>
-        <p>In 1999 Michael joined the French Senate in Paris as a Parliamentary Advisor and moved to the Mayor’s Association of France where, as Head of European and International Affairs, he represented his constituents’ interests at European level</p>
-        <p>Between 2008 and 2014 Michael held the post of Director of Regulatory and Public Affairs at DuPont Pioneer in France. During the same period Michael was a member of the Board of Directors at the Union Française des Semenciers (UFS) and Chairman of the UFS Regulation and Innovation Commission</p>
-        `,
-          image: "assets/img/panelist/micheal.jpg",
         },
         {
           id: "8",
@@ -129,42 +128,107 @@ app.controller("PanelistController", [
         {
           id: "9",
           title: "Dr",
-          firstname: "Audu",
-          lastname: "Grema",
-          position: "Senior Program Officer, Agriculture",
-          org: "Bill & Melinda Gates Foundation (BMGF)",
+          firstname: "Yunusa",
+          lastname: "M. ISHAKU",
+          position: "Assistant Director, Extension and Linkages",
+          org: "National Animal Production Research Institute NAPRI",
           bio: `
-        <p>Audu Grema is senior manager for agriculture for the Gates Foundation. Based in Nigeria, he previously worked in the United Kingdom's Department for International Development, originally as agricultural advisor and transitioning to aid management. He has B.S. and M.S. degrees from universities in Nigeria, as well as a Ph.D. from Cranfield University.</P>       
+        <p>Dr. Yunusa M. Ishaku is a distinguished professional with a Ph.D. in Animal Science, currently serving as the Assistant Director of Extension and Linkages at the National Animal Production Research Institute (NAPRI/ABU) in Zaria. Additionally, he holds the position of Programme Leader for the Feeds and Nutrition Research Programme within the institute. Originating from Niger State, Dr. Ishaku has built an impressive academic and professional profile.</p>       
+        <p>His educational journey began with a Bachelor's degree in Agriculture from the Federal University of Technology, Minna, Niger State. He furthered his studies at Ahmadu Bello University, Zaria, Kaduna State, where he earned both his MSc and Ph.D. in Animal Science.</p>
+        <p>Dr. Ishaku has contributed significantly to the field, boasting an extensive portfolio of local papers and journal publications. His expertise lies in Pasture Agronomy, Utilization, and Range Management, reflecting a profound commitment to advancing knowledge in these areas.</p>
+        <p>As a Registered Animal Scientist (RAS), Dr. Ishaku is actively engaged in various professional societies and associations related to Animal Production and Sciences. His memberships attest to his dedication to staying abreast of developments in the field, fostering collaboration, and contributing to the growth of the scientific community.</p>
+        <p>With a wealth of experience and a passion for his specialization, Dr. Yunusa M. Ishaku stands as a key figure in the advancement of animal science and agricultural research in Nigeria.</p>
         `,
-          image: "assets/img/panelist/grema.jpg",
+          image: "assets/img/panelist/yunusa.png",
         },
         {
           id: "10",
-          title: "Mr",
-          firstname: "Mark",
-          lastname: "Nelson",
-          position: "Managing Director",
-          org: "Resourced Global",
+          title: "Dr",
+          firstname: "Hillary",
+          lastname: "Mireku Botey",
+          position: "Senior Research Scientist",
+          org: "CSIR-Crops Research Institute",
           bio: `
-        <p>Mark Nelson is a seasoned Managing Director with over 8 years and 2 months of experience at CGD, a non-governmental entity based in Mahomet, Illinois, dedicated to supporting grant-making donors in implementing complex agricultural development initiatives. Mark played a crucial role in founding CGD, leveraging commercial expertise to design and implement multi-stakeholder programs that significantly impact the livelihoods of smallholder farmers and value chain entrepreneurs. His leadership style involves managing diverse teams, fostering partnerships, and ensuring timely development outcomes to meet the growing global demand for food, feed, fiber, and renewable energy.</p>
-        <p>One of Mark's notable achievements is his current leadership in a two-year $USD 4 million program funded by the Bill and Melinda Gates Foundation. This initiative aims to enhance agricultural productivity for smallholder farmers in Burkina Faso, Mali, and Nigeria by addressing constraints and improving understanding of key factors in crop investment decisions, focusing on sorghum and pearl millet cultivation. Additionally, Mark directs CGD's involvement in a four-year $USD 11.6 million project, also funded by the Gates Foundation, focused on sustainably improving farmers' access to high-quality and affordable cassava planting materials through the development and promotion of commercial models for seed provision.</P>
-        <p>Mark's approach is characterized by a results-oriented mindset, integrating commercial expertise with a deep understanding of development challenges in agricultural systems. His commitment to fostering productive public-private partnerships and his strategic vision position him as a respected leader in the agricultural development sector, contributing to positive change and long-term opportunities in the industry.</p>
+        <p>Dr. Hillary Mireku Botey is a Senior Research Scientist in the field of Seed Science at CSIR-Crops Research Institute. He is the Head of the Biotechnology, Seed and Postharvest Division at CRI. His research focus has been seed physiological and biochemical traits as impacted by maturation, climate change and abiotic stresses. Primary interest is germination requirements for neglected and underutilized crop species  and how they may be affected under climate change conditions.</p>
+        <p>Dr. Botey further has expertise in seed systems of vegetatively propagated crops and vegetables</P>       
+        <p>Dr. Hillary Mireku Botey also holds a Masters in Intellectual Property with substantial knowledge in Plant variety protection, use of patent information for agricultural research, innovation and technology transfer. He is into Intellectual Property Rights Advocacy and Institutional IP Policy development as well. In his function as the Intellectual Property Officer of the Institute, Dr. Botey is responsible for reviewing and advising management on on IP matters. He has successfully, licensed for the first time in the history of the Institute nine (9) crop varieties to seed companies covering Maize, Soybean and Tomato. He is the IP Adviser to the Institute on IP ownership in MOUs between the Institute and donor partners, the private sector and third parties regarding research agreements, contracts and crop variety licensing and manages Material Transfer Agreements and Access and Benefit-Sharing Agreements.</p>
+        <p>Dr. H. M. Botey holds a PhD in Seed Science from the University of Eldoret, Kenya, Master in Intellectual Property (MIP) from Africa University, Zimbabwe, MSc. Seed Science and Technology and BSc. Agriculture from Kwame Nkrumah Univeristy of Science and Technology, Kumasi, Ghana.  He has been a seed scientist with the CSIR-Crops Research Institute since 2011 and former Head of the Seed Technology Unit of the Biotechnology, Seed and Postharvest (BSP) Division of the Institute.</p>
+        <p>He is also a Lecturer at the CSIR College of Science and Technology (CCST) responsible for teaching Seed Science and Technology. Dr. Hillary Mireku Botey was recently awarded a Bentham-Moxon Trust Fund for research at the Millennium Seed Bank of Royal Botanic Gardens, Kew, UK. Dr. Hillary Mireku Botey is the lead author in most of his scientific publications and led Donor Funded Projects (AATF-USAID, IFDC-USAID, KAFACI). </p>
         `,
-          image: "assets/img/panelist/mark.jpg",
+          image: "assets/img/panelist/mireku.jpg",
         },
         {
           id: "11",
           title: "Dr",
-          firstname: "Marja",
-          lastname: "Thijssen",
-          position: "Senior advisor in agrobiodiversity and seed systems",
-          org: "Wageningen University & Research",
+          firstname: "Ahmed",
+          lastname: "S. Abdullahi",
+          position: "Animal Scientist",
+          org: "National Animal Production Research Institute NAPRI",
           bio: `
-        <p>Dr. Marja Thijssen is senior advisor genetic resources and seed systems at the Centre for Development Innovation (CDI) of Wageningen University and Research centre in the Netherlands. At CDI she coordinates a multi-disciplinary team of professionals working on Integrated Seed Sector Development (ISSD)</p>
-        <p>Marja coordinates the programme in Ethiopia. In addition she coordinates the continental ISSD Africa initiative. This initiative aims to work on complex challenges of strategic importance to the seed sector that are dicult to tackle at national level. The initiative aims to establish an African-embedded structure and network of experts, seed programmes and associated organizations</P>       
-        <p> Marja holds an MSc in Plant Breeding and a PhD in Plant Cell Biology, both from Wageningen University. She has more than 15 years of experience working in development projects and international trainings on agrobiodiversity management, crop improvement and seed sector development in Africa, Latin America and South Asia.</p>
+        <p>Dr. Ahmed S. Abdullahi, a dedicated Animal Scientist, embarked on his academic journey at the University of Maiduguri, where he earned his first degree. Commencing his professional career as an Assistant Research Fellow at NAPRI/ABU Shika-Zaria, he has ascended to the position of Research Fellow I. His academic pursuits led him to Ahmadu Bello University, Zaria, where he successfully completed his M.Sc and Ph.D. degrees.</p>       
+        <p>Dr. Abdullahi's primary focus is in the specialized field of Pasture Agronomy and Utilization. He exhibits a keen interest in enhancing animal performance on forages through the refinement of ration formulation and intake improvement. As a testament to his expertise, he currently serves as the Head of the Forage Production Unit at the institute.</p>
+        <p>With a commitment to advancing knowledge in his field, Dr. Abdullahi has actively contributed to research endeavors. His work not only encompasses the intricacies of pasture agronomy but also delves into strategies for optimizing animal performance through innovative approaches to forage utilization.</p>
+        <p>As a Research Fellow, Dr. Ahmed S. Abdullahi continues to make valuable contributions to the scientific community, particularly in the realms of forage production and animal performance improvement. His leadership as the Head of the Forage Production Unit underscores his commitment to driving advancements in these crucial areas of animal science.</p>
         `,
-          image: "assets/img/panelist/marja.jpg",
+          image: "assets/img/panelist/ahmed.png",
+        },
+        {
+          id: "12",
+          title: "Ms",
+          firstname: "Nunnsi",
+          lastname: "Ojong",
+          position: "Actress & Model",
+          org: "Creative Industry",
+          bio: `
+        <p>I am Nunnsi Ojong, a talented and versatile individual hailing from the culturally rich Cross River State in Nigeria. My academic background includes a Bachelor of Science degree in Genetics & Biotechnology, reflecting my intellectual curiosity and commitment to understanding the intricacies of life sciences.</p>       
+        <p>In the entertainment industry, I have made a mark as both an actress and a model. With a passion for storytelling and a flair for the dramatic, I've graced the screens in various movies and TV series. Some of my notable credits include roles in popular productions such as "The Johnsons," "Covenant," and "The New Superstory," showcasing my ability to captivate audiences with my performances.</p>
+        <p>As an actress, I bring characters to life with depth and authenticity, immersing myself in the narrative to deliver compelling performances. Simultaneously, my work as a model allows me to express creativity through visual storytelling, embodying diverse roles and styles in the world of fashion and imagery.</p>
+        <p>I am dedicated to continuously honing my craft and contributing to the vibrant landscape of Nigerian entertainment. With a unique blend of academic knowledge and artistic talent, I aspire to make meaningful contributions to both the scientific and creative realms, leaving an indelible mark on the hearts and minds of those who experience my work.</p>
+        `,
+          image: "assets/img/panelist/Nunnsi.jpg",
+        },
+        {
+          id: "13",
+          title: "Ms",
+          firstname: "Laura",
+          lastname: "Piñán González",
+          position: "International Project Coordinator",
+          org: "Naktuinbouw",
+          bio: `
+        <p>Laura Piñán González is an agricultural engineer specializing in Horticulture and Gardening. She obtained her degree from the School of Agricultural Engineering at the University of Valladolid, Spain.</p>       
+        <p>In 1999, she moved to the Netherlands, where she had the opportunity to work on the selection of new rose varieties for a prominent Dutch/French company</p>
+        <p>Since 2007, she has played a crucial role in the Horticultural Species Inspection Service of the Netherlands, Naktuinbouw. Her work has focused on being a DUS examiner, with a focus on horticultural crops. Currently, she also takes on the role of coordinator for international projects related to Plant Breeder's Rights and market access.</p>
+        <p>Throughout her experience in this role, she has had the valuable opportunity to visit countries on all five continents, participating in conferences, seminars, and training sessions with the purpose of raising awareness and providing training in the creation, development, implementation, and improvement of Breeder's Rights systems. Additionally, she has been actively involved in coordinating and facilitating the training course on "Plant Breeder's Rights for Food Security and Economic Development" since 2010.</p>
+        `,
+          image: "assets/img/panelist/laura.jpg",
+        },
+        {
+          id: "14",
+          title: "Mr",
+          firstname: "Kolade",
+          lastname: "Dada",
+          position: "Managing Director",
+          org: "SeedCo Nigeria",
+          bio: `
+        <p>Kolade Dada, an adept marketing strategy and sales force management professional, boasts a rich 13-year track record in the Agric Input and FMCG sector in Nigeria. Currently steering Seed Co Nigeria as Managing Director, he champions a progressive hybridization agenda for key crops of national interest enhancing farmers' yields and livelihoods.</p>       
+        <p>His expertise spans senior leadership roles at Saro Africa International, where he ascended from Business Manager to spearheading Marketing Strategies and optimizing Sales Force Efficiency. He holds a bachelor's degree in Agronomy and Pedology and is an alumnus of the prestigious Lagos Business School.</p>       
+        `,
+          image: "assets/img/panelist/kolade.jpg",
+        },
+        {
+          id: "15",
+          title: "Dr",
+          firstname: "Godwin",
+          lastname: "Atser",
+          position: "Country Director",
+          org: "Sasakawa Africa Association",
+          bio: `
+        <p>Dr. Godwin Atser serves as the Country Director for Sasakawa Africa Association, bringing a wealth of expertise in agricultural extension and rural development. Holding a Ph.D. and M.Sc. in Agricultural Extension & Rural Development from the esteemed University of Ibadan, along with a B.Sc. in Agricultural Economics & Extension from the University of Agriculture Makurdi, Dr. Atser has a solid academic foundation.</p>       
+        <p>Before assuming his current role, Dr. Atser made significant contributions at the International Institute of Tropical Agriculture (IITA). He played pivotal roles in various projects funded by notable organizations such as the African Development Bank (AfDB), International Fund for Agricultural Development (IFAD), World Food Program (WFP), and the Bill & Melinda Gates Foundation. Notably, he served as the Project Manager for the GIZ/GIAE Cassava & Maize Value Chain Project and held the position of Advocacy, Promotion & Outreach Lead for the Building an Economically Sustainable, Integrated Cassava Seed System, Phase 2 (BASICS-II) at IITA.</p>       
+        <p>Dr. Atser's expertise extends to digital extension and advisory services, where he served as the Digital Extension & Advisory Services Specialist for the African Cassava Agronomy Initiative (ACAI) project. Additionally, he contributed as the Communication & Knowledge Exchange Expert with the Cassava Weed Management Project (CWMP) at IITA.</p>
+        <p>His diverse skill set includes proficiency in digital extension, proposal development, advocacy, training, development communications, knowledge management, resource mobilization, marketing, and public affairs. Dr. Atser's multifaceted background makes him a valuable leader in the agricultural sector, and his commitment to advancing sustainable practices is evident through his impactful contributions to various projects and initiatives.</p>
+        `,
+          image: "assets/img/panelist/godwin.jpg",
         },
       ];
 
