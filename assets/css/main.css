@@ -9847,7 +9847,7 @@ input[type="color"] {
   font-size: 16px;
   line-height: 24px;
   color: var(--tp-text-18);
-  font-family: var(--tp-ff-roboto);
+  font-family: var(--tp-ff-poppins);
 }
 .section__title-wrapper-6-white > p {
   color: var(--tp-common-white);
@@ -16572,8 +16572,8 @@ input[type="color"] {
   }
 }
 .slider__title-12 {
-  font-family: var(--tp-ff-inter);
-  font-weight: 700;
+  font-family: var(--tp-ff-poppins);
+  font-weight: 900;
   font-size: 180px;
   line-height: 1.1;
   letter-spacing: 0.02em;
@@ -17428,7 +17428,7 @@ input[type="color"] {
 }
 .slider__content-12-branding {
   position: absolute;
-  top: 38px;
+  top: 65px;
   left: -73px;
   will-change: transform;
   opacity: 0;
@@ -22104,14 +22104,14 @@ input[type="color"] {
   font-size: 15px;
   line-height: 22px;
   color: var(--tp-text-18);
-  font-family: var(--tp-ff-roboto);
+  font-family: var(--tp-ff-poppins);
 }
 .about__features-title {
   font-weight: 700;
   font-size: 18px;
   color: var(--tp-common-black-9);
   margin-bottom: 5px;
-  font-family: var(--tp-ff-roboto);
+  font-family: var(--tp-ff-poppins);
 }
 .about__play {
   position: absolute;
@@ -22149,23 +22149,11 @@ input[type="color"] {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-image: -webkit-linear-gradient(
-    27.86deg,
-    #ff0870 8.41%,
-    #ffdc84 93.57%
-  );
-  background-image: -moz-linear-gradient(
-    27.86deg,
-    #ff0870 8.41%,
-    #ffdc84 93.57%
-  );
-  background-image: -ms-linear-gradient(
-    27.86deg,
-    #ff0870 8.41%,
-    #ffdc84 93.57%
-  );
-  background-image: -o-linear-gradient(27.86deg, #ff0870 8.41%, #ffdc84 93.57%);
-  background-image: linear-gradient(27.86deg, #ff0870 8.41%, #ffdc84 93.57%);
+  background-image: -webkit-linear-gradient(27.86deg, #079300 8.41%, #ffdc84 93.57%);
+    background-image: -moz-linear-gradient(27.86deg, #ff0870 8.41%, #ffdc84 93.57%);
+    background-image: -ms-linear-gradient(27.86deg, #ff0870 8.41%, #ffdc84 93.57%);
+    background-image: -o-linear-gradient(27.86deg, #ff0870 8.41%, #ffdc84 93.57%);
+    background-image: linear-gradient(27.86deg, #258500 8.41%, #46c32d 93.57%);
 }
 @media (max-width: 575px) {
   .about__play-btn {
@@ -22200,7 +22188,7 @@ input[type="color"] {
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
   padding: 40px 48px;
-  background-color: var(--tp-common-blue-4);
+  background-color: #4cb12f;
   z-index: 1;
 }
 [dir="rtl"] .about__video-counter {
@@ -22290,7 +22278,7 @@ input[type="color"] {
   letter-spacing: -0.03em;
   color: var(--tp-common-white);
   margin-bottom: 0;
-  font-family: var(--tp-ff-roboto);
+  font-family: var(--tp-ff-poppins);
 }
 .about__video-counter-item p {
   font-weight: 500;
@@ -22299,7 +22287,7 @@ input[type="color"] {
   color: var(--tp-common-white);
   margin-bottom: 0;
   margin-left: 7px;
-  font-family: var(--tp-ff-roboto);
+  font-family: var(--tp-ff-poppins);
 }
 [dir="rtl"] .about__video-counter-item p {
   margin-left: 0;
@@ -33662,7 +33650,7 @@ div.team__details-shape-4 img {
 }
 .testimonial__avater-title-5 {
   color: var(--tp-common-black);
-  font-family: var(--tp-ff-space);
+  font-family: var(--tp-ff-poppins);
   font-size: 18px;
   margin-bottom: 0;
   line-height: 1;
@@ -33897,9 +33885,9 @@ div.team__details-shape-4 img {
   margin-bottom: 22px;
 }
 .testimonial__content-5 p {
-  font-family: var(--tp-ff-space);
+  font-family: var(--tp-ff-poppins);
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 28px;
   letter-spacing: -0.02em;
   color: var(--tp-common-black);
@@ -33910,7 +33898,7 @@ div.team__details-shape-4 img {
   font-size: 16px;
   line-height: 26px;
   margin-bottom: 30px;
-  font-family: var(--tp-ff-roboto);
+  font-family: var(--tp-ff-poppins);
 }
 .testimonial__content-7 {
   margin-bottom: 65px;
@@ -35426,15 +35414,16 @@ div.team__details-shape-4 img {
   margin: 0 6px;
 }
 .brand__info p {
-  font-family: var(--tp-ff-space);
+  font-family: var(--tp-ff-poppins);
   font-weight: 400;
-  font-size: 20px;
+  font-size: 22px;
   letter-spacing: -0.04em;
   color: #525258;
   margin-bottom: 50px;
 }
 .brand__info p span {
-  color: var(--tp-theme-5);
+      color: #45cd11;
+    font-weight: 800;
 }
 .brand__info-2 p {
   font-weight: 600;
