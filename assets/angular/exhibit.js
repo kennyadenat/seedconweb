@@ -35,9 +35,8 @@ app.controller("ExhibitController", [
       };
     };
 
-    //  $scope.url = "http://localhost:3300/api/v0001/participant/addexhibitor";
-    $scope.url =
-      "https://eventserver.onrender.com/api/v0001/participant/addexhibitor";
+    $scope.url = "http://localhost:3300/api/v0001/participant/addexhibitor";
+    // $scope.url = "https://eventserver.onrender.com/api/v0001/participant/addexhibitor";
 
     $scope.chooseOption = function (options) {
       $scope.mainPage = false;
